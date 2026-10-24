@@ -52,6 +52,47 @@
         "Gekaufte Mayonnaise statt selbstgemachter verwenden (kein rohes Ei).",
         "Salat und Gemüse gründlich waschen, Brettchen nach rohem Fleisch heiß abspülen."
       ]
+    },
+    {
+      "id": "ofenlachs-kartoffeln-brokkoli",
+      "titel": "Ofenlachs mit Kartoffeln und Brokkoli",
+      "beschreibung": "Lachsfilet mit Zitrone, Ofenkartoffeln, Brokkoli und Kirschtomaten – alles zusammen auf einem Blech gegart, mit Olivenöl, Knoblauch und Kräutern. Wenig Aufwand.",
+      "portionen": 2,
+      "zeit": "35–40 Min.",
+      "tags": ["Fisch", "Ofengericht", "wenig Aufwand", "schwangerschaftsgeeignet"],
+      "zutaten": [
+        { "id": "kartoffeln", "name": "Kartoffeln", "menge": 600, "einheit": "g", "kategorie": "Obst & Gemüse", "hinweis": "kleine, festkochende, z. B. Drillinge" },
+        { "id": "oel-kartoffeln", "name": "Olivenöl", "menge": 2, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "für die Kartoffeln" },
+        { "id": "rosmarin", "name": "Rosmarin (getrocknet)", "menge": 1, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "oder Kräuter der Provence" },
+        { "id": "salz-kartoffeln", "name": "Salz", "menge": 0.5, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "für die Kartoffeln" },
+        { "id": "pfeffer", "name": "Pfeffer", "menge": 0.25, "einheit": "TL", "kategorie": "Vorrat" },
+        { "id": "brokkoli", "name": "Brokkoli", "menge": 400, "einheit": "g", "kategorie": "Obst & Gemüse" },
+        { "id": "tomaten", "name": "Kirschtomaten", "menge": 150, "einheit": "g", "kategorie": "Obst & Gemüse" },
+        { "id": "knoblauch", "name": "Knoblauch", "menge": 2, "einheit": "Zehe", "kategorie": "Obst & Gemüse" },
+        { "id": "dill-marinade", "name": "Dill", "menge": 10, "einheit": "g", "kategorie": "Obst & Gemüse", "hinweis": "frisch, für die Marinade" },
+        { "id": "oel-marinade", "name": "Olivenöl", "menge": 3, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "für die Marinade" },
+        { "id": "zitrone-saft", "name": "Zitrone", "mehrzahl": "Zitronen", "menge": 0.5, "kategorie": "Obst & Gemüse", "hinweis": "nur der Saft, für die Marinade" },
+        { "id": "salz-marinade", "name": "Salz", "menge": 0.5, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "für die Marinade" },
+        { "id": "lachs", "name": "Lachsfilet", "mehrzahl": "Lachsfilets", "menge": 2, "kategorie": "Fleisch & Fisch", "hinweis": "à ca. 150 g" },
+        { "id": "zitrone-scheiben", "name": "Zitrone", "mehrzahl": "Zitronen", "menge": 0.5, "kategorie": "Obst & Gemüse", "hinweis": "in Scheiben, für den Lachs" },
+        { "id": "dill-deko", "name": "Dill", "menge": 5, "einheit": "g", "kategorie": "Obst & Gemüse", "hinweis": "zum Bestreuen" }
+      ],
+      "schritte": [
+        { "titel": "Ofen vorheizen & Kartoffeln schneiden", "text": "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen. {kartoffeln} gründlich waschen und halbieren, größere Kartoffeln vierteln." },
+        { "titel": "Kartoffeln würzen & vorbacken", "minuten": 15, "text": "Die Kartoffeln auf einem mit Backpapier belegten Blech mit {oel-kartoffeln}, {rosmarin}, {salz-kartoffeln} und {pfeffer} mischen, mit der Schnittfläche nach unten verteilen und ca. 15 Minuten vorbacken." },
+        { "titel": "Gemüse vorbereiten", "text": "{brokkoli} in kleine Röschen teilen, den Strunk schälen und in Scheiben schneiden. {tomaten} waschen." },
+        { "titel": "Kräutermarinade anrühren", "text": "{knoblauch} schälen und fein hacken. {dill-marinade} waschen, trocken schütteln und fein schneiden. Beides mit {oel-marinade}, dem Saft von {zitrone-saft} und {salz-marinade} verrühren." },
+        { "titel": "Lachs vorbereiten", "text": "{lachs} kalt abspülen, trocken tupfen und rundum mit gut der Hälfte der Marinade bestreichen. Hände und Brett danach gründlich waschen." },
+        { "titel": "Blech belegen", "text": "Das Blech aus dem Ofen nehmen und die Kartoffeln an den Rand schieben. {brokkoli} und {tomaten} mit der restlichen Marinade mischen und dazugeben. Den Lachs in die Mitte legen." },
+        { "titel": "Alles zusammen garen", "minuten": 15, "text": "Den Lachs mit {zitrone-scheiben} in dünnen Scheiben belegen. Alles zusammen 12–15 Minuten garen, bis der Lachs vollständig durchgegart ist: Er lässt sich leicht zerteilen und ist innen nicht mehr glasig (mind. 70 °C Kerntemperatur)." },
+        { "titel": "Anrichten", "text": "Mit {dill-deko} bestreuen und sofort servieren." }
+      ],
+      "tipps": [
+        "Lachs immer vollständig durchgaren (mind. 70 °C Kerntemperatur für 2 Minuten), keine glasigen Stellen.",
+        "Tiefgekühlten Lachs über Nacht im Kühlschrank auftauen lassen und gut trocken tupfen.",
+        "Brokkoli, Tomaten und Kräuter gründlich waschen; Brett und Hände nach rohem Fisch heiß abwaschen.",
+        "Statt Dill passt auch Petersilie, statt Rosmarin Kräuter der Provence oder Thymian."
+      ]
     }
   ]
 }
