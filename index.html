@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sharis Rezepte</title>
+  <meta name="description" content="Rezepte auswählen, Portionen festlegen und automatisch eine Einkaufsliste erstellen.">
+  <meta name="theme-color" content="#c8553d" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#2a1f1b" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="kopf">
+    <a class="marke" href="#/">
+      <img src="icon.svg" alt="" width="32" height="32">
+      <span>Sharis Rezepte</span>
+    </a>
+    <nav class="navi" aria-label="Hauptnavigation">
+      <a href="#/" data-nav="uebersicht">Rezepte</a>
+      <a href="#/einkauf" data-nav="einkauf">
+        Einkaufsliste
+        <span class="badge" id="nav-badge" hidden>0</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="hinweis-laden">Rezepte werden geladen …</p>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

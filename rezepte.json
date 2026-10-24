@@ -1,0 +1,57 @@
+{
+  "rezepte": [
+    {
+      "id": "burger-teller",
+      "titel": "Cheeseburger mit Süßkartoffel-Wedges & Salat",
+      "beschreibung": "Saftiger Cheeseburger mit karamellisierten Zwiebeln, knusprigen Süßkartoffel-Wedges und Rucola-Salat mit Zitronen-Dressing.",
+      "portionen": 2,
+      "zeit": "45 Min.",
+      "tags": ["Fleisch", "schwangerschaftsgeeignet"],
+      "zutaten": [
+        { "id": "suesskartoffel", "name": "Süßkartoffeln", "menge": 600, "einheit": "g", "kategorie": "Obst & Gemüse" },
+        { "id": "oel-wedges", "name": "Olivenöl", "menge": 2, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "für die Wedges" },
+        { "id": "paprika", "name": "Paprikapulver edelsüß", "menge": 1, "einheit": "TL", "kategorie": "Vorrat" },
+        { "id": "salz-wedges", "name": "Salz", "menge": 0.5, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "für die Wedges" },
+        { "id": "zwiebel", "name": "Zwiebel", "mehrzahl": "Zwiebeln", "menge": 1, "kategorie": "Obst & Gemüse" },
+        { "id": "butter", "name": "Butter", "menge": 1, "einheit": "EL", "kategorie": "Kühlregal", "hinweis": "oder Öl" },
+        { "id": "hack", "name": "Rinderhackfleisch", "menge": 300, "einheit": "g", "kategorie": "Fleisch & Fisch" },
+        { "id": "salz-patty", "name": "Salz", "menge": 0.5, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "für die Patties" },
+        { "id": "pfeffer", "name": "Pfeffer", "menge": 0.25, "einheit": "TL", "kategorie": "Vorrat" },
+        { "id": "mayo", "name": "Mayonnaise", "menge": 2, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "gekauft, nicht selbstgemacht" },
+        { "id": "ketchup", "name": "Ketchup", "menge": 1, "einheit": "EL", "kategorie": "Vorrat" },
+        { "id": "senf", "name": "mittelscharfer Senf", "menge": 1, "einheit": "TL", "kategorie": "Vorrat" },
+        { "id": "rucola-salat", "name": "Rucola", "menge": 50, "einheit": "g", "kategorie": "Obst & Gemüse", "hinweis": "für den Salat" },
+        { "id": "rucola-burger", "name": "Rucola", "menge": 20, "einheit": "g", "kategorie": "Obst & Gemüse", "hinweis": "für die Burger" },
+        { "id": "tomaten", "name": "Kirschtomaten", "menge": 150, "einheit": "g", "kategorie": "Obst & Gemüse" },
+        { "id": "gurke", "name": "Salatgurke", "menge": 100, "einheit": "g", "kategorie": "Obst & Gemüse" },
+        { "id": "zitrone", "name": "Zitrone", "mehrzahl": "Zitronen", "menge": 0.5, "kategorie": "Obst & Gemüse", "hinweis": "nur der Saft" },
+        { "id": "oel-dressing", "name": "Olivenöl", "menge": 2, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "für das Dressing" },
+        { "id": "honig", "name": "Honig", "menge": 0.5, "einheit": "TL", "kategorie": "Vorrat" },
+        { "id": "salz-dressing", "name": "Salz", "menge": 0.25, "einheit": "TL", "kategorie": "Vorrat", "hinweis": "für das Dressing" },
+        { "id": "rapsoel", "name": "Rapsöl", "menge": 1, "einheit": "EL", "kategorie": "Vorrat", "hinweis": "zum Braten" },
+        { "id": "cheddar", "name": "Cheddar (pasteurisiert)", "menge": 2, "einheit": "Scheibe", "kategorie": "Kühlregal" },
+        { "id": "broetchen", "name": "Burgerbrötchen", "menge": 2, "kategorie": "Brot & Backwaren" }
+      ],
+      "schritte": [
+        { "titel": "Ofen vorheizen & Wedges schneiden", "text": "Backofen auf 220 °C Ober-/Unterhitze (200 °C Umluft) vorheizen. {suesskartoffel} gründlich waschen und längs in ca. 2 cm dicke Spalten schneiden." },
+        { "titel": "Wedges würzen", "text": "Die Spalten mit {oel-wedges}, {paprika} und {salz-wedges} mischen und auf einem Blech mit Backpapier verteilen." },
+        { "titel": "Wedges backen", "minuten": 30, "text": "Die Wedges aus {suesskartoffel} 25–30 Minuten backen, nach 15 Minuten wenden. Die nächsten Schritte währenddessen erledigen." },
+        { "titel": "Zwiebeln karamellisieren", "minuten": 10, "text": "{zwiebel} schälen, in feine Ringe schneiden und in {butter} bei mittlerer Hitze ca. 10 Minuten goldbraun braten. Beiseitestellen." },
+        { "titel": "Patties formen", "text": "{hack} mit {salz-patty} und {pfeffer} verkneten. Patties à ca. 150 g (1,5 cm dick) formen und in die Mitte eine kleine Mulde drücken. Hände, Brett und Messer danach gründlich waschen." },
+        { "titel": "Burgersauce anrühren", "text": "{mayo}, {ketchup} und {senf} glatt verrühren." },
+        { "titel": "Salat vorbereiten", "text": "{rucola-salat} für den Salat und {rucola-burger} für die Burger gründlich waschen und trocken schleudern. {tomaten} halbieren, {gurke} in Scheiben schneiden." },
+        { "titel": "Dressing mischen", "text": "Saft von {zitrone} mit {oel-dressing}, {honig} und {salz-dressing} verrühren. Erst kurz vor dem Servieren mit Rucola, Tomaten und Gurke mischen." },
+        { "titel": "Patties braten", "minuten": 10, "text": "{rapsoel} in einer Pfanne erhitzen. Patties pro Seite 4–5 Minuten braten, bis sie innen komplett durchgegart sind (keine rosa Stellen, mind. 70 °C Kerntemperatur)." },
+        { "titel": "Käse schmelzen", "minuten": 1, "text": "In der letzten Minute {cheddar} auf die Patties legen (eine pro Patty), Deckel drauf und schmelzen lassen." },
+        { "titel": "Brötchen rösten", "minuten": 1, "text": "{broetchen} aufschneiden und mit der Schnittfläche nach unten ca. 1 Minute in der Pfanne rösten." },
+        { "titel": "Burger bauen & servieren", "text": "Unterseiten mit der Sauce bestreichen, mit {rucola-burger} belegen, Käse-Patty und Zwiebeln daraufsetzen, Deckel drauf. Mit den Wedges und dem Salat anrichten." }
+      ],
+      "tipps": [
+        "Hackfleisch immer vollständig durchgaren (mind. 70 °C Kerntemperatur für 2 Minuten).",
+        "Beim Cheddar auf „aus pasteurisierter Milch“ achten.",
+        "Gekaufte Mayonnaise statt selbstgemachter verwenden (kein rohes Ei).",
+        "Salat und Gemüse gründlich waschen, Brettchen nach rohem Fleisch heiß abspülen."
+      ]
+    }
+  ]
+}

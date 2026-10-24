@@ -1,0 +1,16 @@
+{
+  "name": "Sharis Rezepte",
+  "short_name": "Rezepte",
+  "description": "Rezepte auswählen, Portionen festlegen und automatisch eine Einkaufsliste erstellen.",
+  "lang": "de",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf6f0",
+  "theme_color": "#c8553d",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
